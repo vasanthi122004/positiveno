@@ -1,0 +1,6 @@
+list1=[2,5,9,-4,-7,9,-3,9]
+numb=0
+while(numb<len(list1)):
+    if list1[numb]>0:
+        print(list1[numb],end=" ")
+    numb+=1
